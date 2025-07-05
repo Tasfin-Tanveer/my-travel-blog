@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    a {color: #faf7f8;
+    text-decoration: underline;}
+    a:hover {text-decoration: underline;
+    color: red ;}
+    h1 {
+    margin-bottom: 30px;}
+}
+
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.travel, .photo, .lists, .contact {
+    margin: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+h2, h3 {
+    color: #023e8a;
+}
+
+.country {
+    font-weight: bold;
+    color: green;
+}
+
+.photo img {
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+button {
+    background-color: #ffb703;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #faa307;
+    text-align: center;
+}
+button {
+    display: block;
+    margin: 30px auto;
+}
+.thought {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    button {background-color: azure;
+    font-size: medium;
+    padding: 5px 10px;}
+}
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: inline-flex;               
+    align-items: center;             
+    justify-content: center;          
+    background-color: #44b4f0;      
+    color: black;
+    width: 30px;                     
+    height: 30px;                     
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;                  
+    transition: transform .2s;
+    text-decoration: none;
+}
+
+.social:hover {
+    background-color: #faa307;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.social i {
+    vertical-align: middle;
+}
+
+.footer {
+    text-align: left;
+    font-size: 10px;
+    padding: 20px 5px;
+    background-color: #023e8a;
+    color: white;
+}
