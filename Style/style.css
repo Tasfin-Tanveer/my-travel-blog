@@ -88,6 +88,7 @@ button {
     button {background-color: azure;
     font-size: medium;
     padding: 5px 10px;}
+    button:hover{background-color: rgb(177, 189, 233);}
 }
 .social-icons {
     text-align: center;
