@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f8fb;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     color: #333;
     margin: 0;
     padding: 0;
@@ -31,7 +34,10 @@ a:hover {
 .travel, .photo, .lists, .contact {
     margin: 30px;
     padding: 20px;
-    background-color: #ffffff;
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     border-radius: 10px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 1);
 }
